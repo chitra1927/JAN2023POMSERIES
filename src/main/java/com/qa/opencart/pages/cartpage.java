@@ -1,12 +1,19 @@
 package com.qa.opencart.pages;
 
+import org.apache.commons.collections4.bag.SynchronizedSortedBag;
+import org.openqa.selenium.By;
+
 public class cartpage {
 
-	public static void main(String[] args) {
+	
 		// TODO Auto-generated method stub
+		By cart = By.id("cart");
 		
-		int a = 10;
+		public void addcart() {
+			
+			System.out.println("IN ADDCART PAGE");
+		}
 
 	}
 
-}
+
